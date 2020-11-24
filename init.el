@@ -116,3 +116,6 @@
 (set-face-attribute 'fixed-pitch nil :family "Ubuntu Mono")
 (set-face-attribute 'variable-pitch nil :family "Ubuntu" :height 120 :weight 'light)
 
+;; -------------------------------------------------------------
+;; magit
+(global-set-key (kbd "C-x g") 'magit-status)
